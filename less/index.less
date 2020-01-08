@@ -55,8 +55,45 @@ table {
 
 html, body {
 	height: 100%;
+	font-size:62.5%;
 	
 }
+// Variables + Mixins
+@main-color: red;
+.box-spacing{
+	margin:1.5%;
+	padding:2%;
+}
+
+
+
+header{
+	padding:1%;
+	background-color:@main-color;
+	h1{
+		text-align: center;
+		color:white;
+		font-size:5rem
+	}
+	nav{
+		display:flex;
+		align-items:center;
+		justify-content: center;
+		@media ( max-width: 450px ) {
+			flex-direction: column;
+		  }
+		a{
+			color:white;
+			font-size: 3rem;
+			text-align: center;
+			.box-spacing()
+		}
+
+	}
+
+
+}
+
 
 
 
