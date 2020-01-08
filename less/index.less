@@ -60,6 +60,7 @@ html, body {
 }
 // Variables + Mixins
 @main-color: red;
+
 .box-spacing{
 	margin:1%;
 	padding:2%;
@@ -84,7 +85,7 @@ header{
 		display:flex;
 		align-items:center;
 		justify-content: center;
-		@media (max-width:450px) {
+		@media (max-width:500px) {
 			flex-direction: column;
 		  }
 		a{
@@ -100,12 +101,11 @@ header{
 }
 .about-section{
 	.box-spacing();
-
 	h2{
 		
 		text-align:center;
 		color:@main-color;
-		font-size:3rem;
+		font-size:4rem;
 	}
 	p{
 			text-align:center;
@@ -118,17 +118,24 @@ header{
 }
 
 .top-content{
-	display:flex;
+
+	h2{
+	font-size:4rem;
+	color:@main-color;
 	.box-spacing();
-	h3{
-	font-size:5rem;
-	
 	.flex-center();
-	}
-	h4{
-		font-size:2rem;
-		
 	
+	}
+	div{
+		display:flex;
+		justify-content: space-between;
+		font-size:2rem;
+		.box-spacing();
+		h3{
+			color:@main-color;
+			margin-right:1%;
+		}
+
 	}
 }
 
@@ -137,6 +144,15 @@ header{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.bottom-content{
+	h2{
+	font-size:4rem;
+	.box-spacing();
+	.flex-center();
+	}
+	
 }
 
 
