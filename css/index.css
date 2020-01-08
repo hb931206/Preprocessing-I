@@ -139,6 +139,11 @@ body {
   margin: 1%;
   padding: 2%;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header {
   padding: 1%;
   background-color: red;
@@ -179,4 +184,24 @@ header nav a {
   color: red;
   padding: 1.5%;
   font-size: 2rem;
+}
+.top-content {
+  display: flex;
+  margin: 1%;
+  padding: 2%;
+}
+.top-content h3 {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-content h4 {
+  font-size: 2rem;
+}
+.middle-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
