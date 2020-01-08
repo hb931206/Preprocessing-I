@@ -63,7 +63,7 @@ html, body {
 
 .box-spacing{
 	margin:1%;
-	padding:1%;
+	padding:2%;
 }
 
 .flex-center {
@@ -119,6 +119,10 @@ header{
 			text-align:left;
 			padding:1.5%;
 			font-size: 2rem;
+			@media(max-width:500px){
+				font-size:1.5rem;
+				flex-wrap: wrap;
+			}
 		}
 	
 	
@@ -150,7 +154,7 @@ header{
 			font-size: 3rem;
 			margin-right:1%;
 			@media(max-width:500px){
-				font-size:2rem;
+				font-size:1.75rem;
 				margin-bottom: 2%;
 			}
 		}
@@ -168,20 +172,35 @@ header{
 .bottom-content{
 
 	h2{
-	font-size:4rem;
-	color:@main-color;
-	.box-spacing();
-	.flex-center();
-	
+		text-align:center;
+		padding-top:3%;
+		color:@main-color;
+		font-size:4rem;
+		@media(max-width:500px){
+			font-size:3.25rem;
+			padding-top:3%;
+		}
 	}
+	
+	
+	
 	div{
 		display:flex;
 		justify-content: space-between;
 		font-size:2rem;
 		.box-spacing();
+		@media(max-width:500px){
+			font-size: 1.5rem;
+			flex-wrap: wrap;
+		}
 		h3{
 			color:@main-color;
+			font-size: 3rem;
 			margin-right:1%;
+			@media(max-width:500px){
+				font-size:1.75rem;
+				margin-bottom: 2%;
+			}
 		}
 
 	}
@@ -190,10 +209,15 @@ header{
 .contact-section{
 	div{
 		.flex-center();
+		
 		a{
 			.box-spacing();
 			color:@main-color;
 			font-size: 2rem;
+			@media(max-width:500px){
+				display:flex;
+				font-size:1.5rem;
+			}
 			
 		}
 	}
@@ -206,5 +230,8 @@ Footer{
 	display: flex;
 	font-size: 1rem;
 	color:@main-color;
+	@media(max-width:500px){
+		display:none;
+	}
 	
 }
