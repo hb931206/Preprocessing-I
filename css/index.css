@@ -153,6 +153,12 @@ header h1 {
   color: white;
   font-size: 5rem;
 }
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+  }
+}
 header nav {
   display: flex;
   align-items: center;
@@ -179,6 +185,11 @@ header nav a {
   color: red;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  .about-section h2 {
+    font-size: 3.25rem;
+  }
+}
 .about-section p {
   text-align: left;
   padding: 1.5%;
@@ -193,6 +204,11 @@ header nav a {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .top-content h2 {
+    font-size: 3.25rem;
+  }
+}
 .top-content div {
   display: flex;
   justify-content: space-between;
@@ -200,9 +216,22 @@ header nav a {
   margin: 1%;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  .top-content div {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+}
 .top-content div h3 {
   color: red;
+  font-size: 3rem;
   margin-right: 1%;
+}
+@media (max-width: 500px) {
+  .top-content div h3 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+  }
 }
 .middle-img {
   display: block;
