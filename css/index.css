@@ -137,7 +137,7 @@ body {
 }
 .box-spacing {
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
 }
 .flex-center {
   display: flex;
@@ -165,14 +165,14 @@ header nav {
 }
 header nav a {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
 }
 .about-section {
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
 }
 .about-section h2 {
   text-align: center;
@@ -180,8 +180,7 @@ header nav a {
   font-size: 4rem;
 }
 .about-section p {
-  text-align: center;
-  color: red;
+  text-align: left;
   padding: 1.5%;
   font-size: 2rem;
 }
@@ -189,7 +188,7 @@ header nav a {
   font-size: 4rem;
   color: red;
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,7 +198,7 @@ header nav a {
   justify-content: space-between;
   font-size: 2rem;
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
 }
 .top-content div h3 {
   color: red;
@@ -209,13 +208,25 @@ header nav a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 70%;
 }
 .bottom-content h2 {
   font-size: 4rem;
+  color: red;
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.bottom-content div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin: 1%;
+  padding: 1%;
+}
+.bottom-content div h3 {
+  color: red;
+  margin-right: 1%;
 }
