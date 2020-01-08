@@ -230,3 +230,19 @@ header nav a {
   color: red;
   margin-right: 1%;
 }
+.contact-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section div a {
+  margin: 1%;
+  padding: 1%;
+  color: red;
+  font-size: 2rem;
+}
+Footer {
+  display: flex;
+  font-size: 1rem;
+  color: red;
+}
